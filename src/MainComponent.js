@@ -97,7 +97,7 @@ const MainComponent = () => {
     <img src = "./face.svg" alt=""/>
     </div>
   <h2>Front-end Challenge!</h2>
-  <p>This is a design I am Working on it to impress platform45</p>
+  <p>This is a design I am Working on it for platform45</p>
   <div className = {!visibleContent ? "arrow-control" : "arrowTurn-control"}>
   {visibleContent && <img src = "./arrow.svg" alt="" onClick={leftArrowClickHandler} />}
   {!visibleContent && <img src = "./arrow.svg" alt="" onClick={rightArrowClickHandler} />}
