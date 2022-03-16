@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  font-family: Arial;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .home-container {
+  
+    display: flex;
+    min-height: 100vh;
+    
+    }
+
+    .image-container {
+      width: 50vw;
+      background-color: #ffd500;
+      text-align: center;
+    }
+
+    .form-container {
+      width: 50vw;
+      background-color: white;
+      /* transition: all 0.1s ease-out; */
+      animation: fadeIn 1s;
+    }
+
+    .para-container {
+      width: 50vw;
+      background-color: #ff9200;
+      transition: all 0.9s ease-out;
+    }
+
+    .face-control {
+      margin-top: 25%;
+    }
+
+    
+    .image-control {
+      width: 50vw;
+    }
+    
+    .image-div-control {
+      /* width: 50vw; */
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    }
+    
+    
+    .image-container .face-control img {
+      width: 23%;
+    }
+    
+    .dummy-content h2 {
+       text-align: left;
+    }
+    
+    .dummy-content p {
+      text-align: left;
+    }
+    
+    .dummy-content {
+      margin:14%;
+    }
+    
+    
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      /* padding: 10px; */
+      padding: 25px;
+      margin: 65px;
+    }
+    
+    .success-message {
+      font-family: "Roboto", sans-serif;
+      background-color: #3f89f8;
+      padding: 15px;
+      color: white;
+    }
+    
+    
+    
+    /* button {
+      background: #4caf50;
+      color: white;
+      cursor: pointer;
+    } */
+    
+    button:disabled {
+      cursor: default;
+    }
+
+    .form-field {
+      margin: 25px 0 20px 0;
+      padding: 10px;
+      font-size: 16px;
+      border: 0;
+      font-family: "Roboto", sans-serif;
+      margin-left: 80px;
+        padding-left: 92px;
+        border-radius: 5%;
+    }
+    
+    .react-datepicker__input-container input {
+      padding: 10px;
+      margin-left: 17px;
+        top: -31px;
+        position: relative;
+        padding-left: 102px;
+        border-radius: 2%;
+    }
+
+    .customer-entity input {
+      margin-left: 9%;
+      border: 0;
+    }
+
+    .form-field-datepick img {
+
+      position: relative;
+      top: -30px;
+      left: 257px;
+      width: 5%;
+    }
+
+}
+
+.form-field-select {
+  margin-left: 14%;
+}
+
+.name-entity input {
+  margin-left: 15%;
+}
+
+.react-datepicker-wrapper {
+  margin: 10px 0 10px 0;
+  padding: 15px !important;
+  font-size: 16px;
+  border: 0;
+  width: 0% !important;
+  font-family: "Roboto", sans-serif; 
+}
+
+.form-field-datepick {
+  display: flex;
+}
+
+.form-field-radio {
+  display: flex;
+}
+
+.form-field-memberShip {
+  display: flex;
+}
+
+.form-membership-input {
+  margin-left: 44px;
+
+}
+
+.form-field-button button {
+  background-color: #60e6c5;
+  color:black;
+  cursor: pointer;
+  margin: 2%;
+    padding: 2%;
+    float: right;
+    border-radius: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 0.5px solid #60e6c5;
+}
+
+.form-field-button {
+  margin-top: 7%;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+  border:none;
+}
+
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+.image-container .arrow-control img {
+  background-color: #383838;
+  border-radius: 50%;
+  padding: 1%;
+  width: 2%;
+  margin: 2%;
+  /* transform: rotate(180deg); */
+
+}
+
+.image-container .arrowTurn-control img {
+  background-color: #383838;
+  border-radius: 50%;
+  padding: 1%;
+  width: 2%;
+  margin: 2%;
+  transform: rotate(180deg);
+
+}
+
+@media only screen and (max-width: 970px) {
+
+  .image-container {
+    width: 100vw;
+    background-color: #ffd500;
+    text-align: center;
+  }
+
+  .face-control {
+    margin-top: 0%;
+  }
+
+  .para-container {
+    width: 100vw;
+    background-color: #ff9200;
+    padding-top: 30px;
+    padding-bottom: 307px;
+  }
+
+  .form-container {
+    width: 100%;
+    background-color: white;
+  }
+
+  .form-field {
+    margin: 25px 0 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5%;
+    margin-left: 46px;
+  }
+
+  .react-datepicker__input-container input {
+    padding: 10px;
+      top: -31px;
+      position: relative;
+      padding-left: 20px;
+      border-radius: 2%;
+  }
+
+  .customer-entity input {
+    margin-left: 2%;
+    border: 0;
+  }
+
+  .form-field-datepick img {
+
+    position: relative;
+    top: -30px;
+    left: 160px;
+    width: 5%;
+  }
+
+  .image-container .arrow-control img {
+    transform: rotate(90deg);
+  }
+
+  .image-container .arrowTurn-control img {
+    transform: rotate(270deg);
+  }
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
